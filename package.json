@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "2.118.0",
+    "esbuild": "0.28.2"
+  },
+  "scripts": {
+    "build": "esbuild src/voting.js --bundle --minify --format=iife --target=es2020 --outfile=dist/voting.js"
+  }
+}
